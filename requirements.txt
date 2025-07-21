@@ -7,3 +7,4 @@ python-dotenv
 langfuse
 langchain-community
 langchain-openai
+pypdf
