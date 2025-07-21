@@ -1,8 +1,8 @@
-from langfuse.langchain import LangfuseCallbackHandler
+from langfuse.langchain import CallbackHandler
 from langchain.callbacks import StdOutCallbackHandler
 
 def get_callbacks():
     return [
-        LangfuseCallbackHandler(),
+        CallbackHandler(),
         StdOutCallbackHandler()
     ]
